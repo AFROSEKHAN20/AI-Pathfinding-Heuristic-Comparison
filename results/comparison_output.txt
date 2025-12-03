@@ -1,0 +1,11 @@
+Map                    Heuristic   Success PathLen Cost       NodesExpd  Time(s)  
+----------------------------------------------------------------------------------
+Map1_WallGap           manhattan   True    20      19.00      19         0.000259
+Map1_WallGap           euclidean   True    20      19.00      20         0.000262
+Map1_WallGap           chebyshev   True    20      19.00      44         0.000756
+Map2_WeightedTerrain   manhattan   True    37      36.00      36         0.000358
+Map2_WeightedTerrain   euclidean   True    36      35.00      147        0.001455
+Map2_WeightedTerrain   chebyshev   True    36      35.00      154        0.001715
+Map3_MazeBars          manhattan   True    77      76.00      357        0.003586
+Map3_MazeBars          euclidean   True    77      76.00      360        0.005076
+Map3_MazeBars          chebyshev   True    77      76.00      380        0.002970
